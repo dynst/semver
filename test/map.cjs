@@ -3,7 +3,7 @@
 const t = require('tap')
 const { resolve, join, relative, extname, dirname, basename } = require('path')
 const { statSync, readdirSync } = require('fs')
-const map = require('../map.js')
+const map = require('../map.cjs')
 const pkg = require('../package.json')
 
 const ROOT = resolve(__dirname, '..')

@@ -40,7 +40,7 @@
   ],
   "tap": {
     "timeout": 30,
-    "coverage-map": "map.js",
+    "coverage-map": "map.cjs",
     "nyc-arg": [
       "--exclude",
       "tap-snapshots/**"
