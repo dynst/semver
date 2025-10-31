@@ -1,10 +1,10 @@
 'use strict'
 
-const {
+import {
   MAX_SAFE_COMPONENT_LENGTH,
   MAX_SAFE_BUILD_LENGTH,
   MAX_LENGTH,
-} = require('./constants.js')
+} from './constants.js'
 import debug from './debug.js'
 
 // The actual regexps go on exports.re

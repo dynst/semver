@@ -5,13 +5,13 @@ import parseOptions from '../internal/parse-options.js'
 import Comparator from './comparator.js'
 import debug from '../internal/debug.js'
 import SemVer from './semver.js'
-const {
-  safeRe: re,
+import {
+  safeRe as re,
   t,
   comparatorTrimReplace,
   tildeTrimReplace,
   caretTrimReplace,
-} = require('../internal/re.js')
+} from '../internal/re.js'
 import { FLAG_INCLUDE_PRERELEASE, FLAG_LOOSE } from '../internal/constants.js'
 
 const SPACE_CHARACTERS = /\s+/g
