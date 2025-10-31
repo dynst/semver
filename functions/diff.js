@@ -57,4 +57,4 @@ const diff = (version1, version2) => {
   return 'prerelease'
 }
 
-module.exports = diff
+export default diff

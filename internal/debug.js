@@ -8,4 +8,4 @@ const debug = (
 ) ? (...args) => console.error('SEMVER', ...args)
   : () => {}
 
-module.exports = debug
+export default debug

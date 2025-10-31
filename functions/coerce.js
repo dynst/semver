@@ -59,4 +59,4 @@ const coerce = (version, options) => {
 
   return parse(`${major}.${minor}.${patch}${prerelease}${build}`, options)
 }
-module.exports = coerce
+export default coerce

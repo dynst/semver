@@ -6,4 +6,4 @@ const compareBuild = (a, b, loose) => {
   const versionB = new SemVer(b, loose)
   return versionA.compare(versionB) || versionA.compareBuild(versionB)
 }
-module.exports = compareBuild
+export default compareBuild

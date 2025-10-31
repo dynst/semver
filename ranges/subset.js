@@ -246,4 +246,4 @@ const lowerLT = (a, b, options) => {
     : a
 }
 
-module.exports = subset
+export default subset

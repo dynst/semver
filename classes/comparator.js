@@ -140,4 +140,4 @@ class Comparator {
   }
 }
 
-module.exports = Comparator
+export default Comparator

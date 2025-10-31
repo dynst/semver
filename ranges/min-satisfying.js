@@ -23,4 +23,4 @@ const minSatisfying = (versions, range, options) => {
   })
   return min
 }
-module.exports = minSatisfying
+export default minSatisfying

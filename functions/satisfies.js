@@ -9,4 +9,4 @@ const satisfies = (version, range, options) => {
   }
   return range.test(version)
 }
-module.exports = satisfies
+export default satisfies

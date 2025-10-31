@@ -51,4 +51,4 @@ const cmp = (a, op, b, loose) => {
       throw new TypeError(`Invalid operator: ${op}`)
   }
 }
-module.exports = cmp
+export default cmp

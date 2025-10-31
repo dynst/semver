@@ -14,4 +14,4 @@ const parseOptions = options => {
 
   return options
 }
-module.exports = parseOptions
+export default parseOptions

@@ -18,4 +18,4 @@ const inc = (version, release, options, identifier, identifierBase) => {
     return null
   }
 }
-module.exports = inc
+export default inc

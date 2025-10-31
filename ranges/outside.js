@@ -79,4 +79,4 @@ const outside = (version, range, hilo, options) => {
   return true
 }
 
-module.exports = outside
+export default outside

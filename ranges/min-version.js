@@ -60,4 +60,4 @@ const minVersion = (range, loose) => {
 
   return null
 }
-module.exports = minVersion
+export default minVersion

@@ -226,7 +226,7 @@ class Range {
   }
 }
 
-module.exports = Range
+export default Range
 
 const cache = new LRU()
 

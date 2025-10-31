@@ -5,7 +5,7 @@
 // If the original range is shorter than the simplified one, return that.
 import satisfies from '../functions/satisfies.js'
 import compare from '../functions/compare.js'
-module.exports = (versions, range, options) => {
+export default (versions, range, options) => {
   const set = []
   let first = null
   let prev = null

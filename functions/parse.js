@@ -15,4 +15,4 @@ const parse = (version, options, throwErrors = false) => {
   }
 }
 
-module.exports = parse
+export default parse

@@ -10,4 +10,4 @@ const validRange = (range, options) => {
     return null
   }
 }
-module.exports = validRange
+export default validRange

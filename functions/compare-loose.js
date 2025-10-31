@@ -2,4 +2,4 @@
 
 import compare from './compare.js'
 const compareLoose = (a, b) => compare(a, b, true)
-module.exports = compareLoose
+export default compareLoose

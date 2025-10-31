@@ -24,4 +24,4 @@ const maxSatisfying = (versions, range, options) => {
   })
   return max
 }
-module.exports = maxSatisfying
+export default maxSatisfying
