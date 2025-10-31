@@ -8,6 +8,6 @@ t.match(Object.getOwnPropertyDescriptor(semver, 'SEMVER_SPEC_VERSION'), {
   get: undefined,
   set: undefined,
   value: SEMVER_SPEC_VERSION,
-  configurable: true,
+  configurable: false,
   enumerable: true,
-}, 'just a normal value property')
+}, 'a standard ESM export')
