@@ -1,4 +1,6 @@
 'use strict'
 
+import * as index from './index.js'
+
 // XXX remove in v8 or beyond
-module.exports = require('./index.js')
+export default index
