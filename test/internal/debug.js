@@ -4,6 +4,8 @@ import t from 'tap'
 import { spawn } from 'child_process'
 import debug from '../../internal/debug.js'
 
+const __filename = import.meta.filename
+
 const main = () => {
   t.plan(2)
   t.test('without env set', t => {
