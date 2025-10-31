@@ -2,7 +2,7 @@
 
 //  [version, inc, result, options, identifier, identifierBase]
 //  inc(version, inc, options, identifier, identifierBase) -> result
-module.exports = [
+export default [
   ['1.2.3', 'major', '2.0.0'],
   ['1.2.3', 'minor', '1.3.0'],
   ['1.2.3', 'patch', '1.2.4'],

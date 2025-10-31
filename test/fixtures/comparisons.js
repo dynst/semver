@@ -3,7 +3,7 @@
 // [version1, version2]
 // version1 should be greater than version2
 // used by the cmp, eq, gt, lt, and neq tests
-module.exports = [
+export default [
   ['0.0.0', '0.0.0-foo'],
   ['0.0.1', '0.0.0'],
   ['1.0.0', '0.9.9'],

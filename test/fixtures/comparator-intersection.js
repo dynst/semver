@@ -1,7 +1,7 @@
 'use strict'
 
 // c0, c1, expected intersection, includePrerelease
-module.exports = [
+export default [
   // One is a Version
   ['1.3.0', '>=1.3.0', true],
   ['1.3.0', '>1.3.0', false],

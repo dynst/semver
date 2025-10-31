@@ -2,7 +2,7 @@
 
 // [version1, version2]
 // version1 should be equivalent to version2
-module.exports = [
+export default [
   ['1.2.3', 'v1.2.3', true],
   ['1.2.3', '=1.2.3', true],
   ['1.2.3', 'v 1.2.3', true],

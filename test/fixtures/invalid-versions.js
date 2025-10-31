@@ -3,7 +3,7 @@
 // none of these are semvers
 // [value, reason, opt]
 import { MAX_LENGTH, MAX_SAFE_INTEGER } from '../../internal/constants.js'
-module.exports = [
+export default [
   [new Array(MAX_LENGTH).join('1') + '.0.0', 'too long'],
   [`${MAX_SAFE_INTEGER}0.0.0`, 'too big'],
   [`0.${MAX_SAFE_INTEGER}0.0`, 'too big'],

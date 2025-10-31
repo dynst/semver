@@ -2,7 +2,7 @@
 
 // [range, version, options]
 // Version should be greater than range
-module.exports = [
+export default [
   ['~1.2.2', '1.3.0'],
   ['~0.6.1-1', '0.7.1-1'],
   ['1.0.0 - 2.0.0', '2.0.1'],
