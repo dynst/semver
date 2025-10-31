@@ -221,7 +221,7 @@ createToken('STAR', '(<|>)?=?\\s*\\*')
 createToken('GTE0', '^\\s*>=\\s*0\\.0\\.0\\s*$')
 createToken('GTE0PRE', '^\\s*>=\\s*0\\.0\\.0-0\\s*$')
 
-module.exports = {
+export {
   caretTrimReplace,
   comparatorTrimReplace,
   re,

@@ -28,7 +28,7 @@ const RELEASE_TYPES = [
   'prerelease',
 ]
 
-module.exports = {
+export {
   MAX_LENGTH,
   MAX_SAFE_COMPONENT_LENGTH,
   MAX_SAFE_BUILD_LENGTH,

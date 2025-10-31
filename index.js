@@ -48,7 +48,7 @@ import ltr from './ranges/ltr.js'
 import intersects from './ranges/intersects.js'
 import simplifyRange from './ranges/simplify.js'
 import subset from './ranges/subset.js'
-module.exports = {
+export {
   parse,
   valid,
   clean,

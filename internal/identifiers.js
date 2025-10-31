@@ -23,7 +23,7 @@ const compareIdentifiers = (a, b) => {
 
 const rcompareIdentifiers = (a, b) => compareIdentifiers(b, a)
 
-module.exports = {
+export {
   compareIdentifiers,
   rcompareIdentifiers,
 }
