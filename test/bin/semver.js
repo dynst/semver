@@ -7,7 +7,7 @@ const thisVersion = pkg.version
 t.cleanSnapshot = str => str.split(thisVersion).join('@@VERSION@@')
 
 import { spawn } from 'child_process'
-const bin = import.meta.resolve('../../bin/semver.js')
+const bin = import.meta.resolve('../../bin/semver.js').slice(7)
 const run = args => new Promise((resolve, reject) => {
   const c = spawn(process.execPath, [bin].concat(args))
   c.on('error', reject)
