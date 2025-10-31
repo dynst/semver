@@ -1,6 +1,6 @@
 'use strict'
 
-import exported from '../../classes/index.js'
+import * as exported from '../../classes/index.js'
 import SemVer from '../../classes/semver.js'
 import Range from '../../classes/range.js'
 import Comparator from '../../classes/comparator.js'

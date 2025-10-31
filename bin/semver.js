@@ -28,7 +28,7 @@ let identifier
 
 let identifierBase
 
-import semver from '../index.js'
+import * as semver from '../index.js'
 import parseOptions from '../internal/parse-options.js'
 
 let reverse = false

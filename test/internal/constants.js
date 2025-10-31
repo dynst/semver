@@ -1,7 +1,7 @@
 'use strict'
 
 import t from 'tap'
-import constants from '../../internal/constants.js'
+import * as constants from '../../internal/constants.js'
 
 t.match(constants, {
   MAX_LENGTH: Number,

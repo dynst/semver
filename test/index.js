@@ -1,7 +1,7 @@
 'use strict'
 
 import t from 'tap'
-import semver from '../index.js'
+import * as semver from '../index.js'
 import { SEMVER_SPEC_VERSION } from '../internal/constants.js'
 
 t.match(Object.getOwnPropertyDescriptor(semver, 'SEMVER_SPEC_VERSION'), {
