@@ -6,7 +6,7 @@ const { statSync, readdirSync } = require('fs')
 const map = require('../map.cjs')
 const pkg = require('../package.json')
 
-const ROOT = resolve(__dirname, '..')
+const ROOT = resolve(import.meta.dirname, '..')
 const TEST = join(ROOT, 'test')
 const IGNORE_DIRS = ['fixtures', 'integration']
 
