@@ -1,5 +1,3 @@
-'use strict'
-
 import Benchmark from 'benchmark'
 import parse from '../functions/parse.js'
 const suite = new Benchmark.Suite()

@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import * as constants from '../../internal/constants.js'
 

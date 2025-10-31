@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import valid from '../../functions/valid.js'
 import SemVer from '../../classes/semver.js'

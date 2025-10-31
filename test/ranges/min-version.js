@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import minVersion from '../../ranges/min-version.js'
 

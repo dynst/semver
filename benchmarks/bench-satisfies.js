@@ -1,5 +1,3 @@
-'use strict'
-
 import Benchmark from 'benchmark'
 import satisfies from '../functions/satisfies.js'
 const suite = new Benchmark.Suite()

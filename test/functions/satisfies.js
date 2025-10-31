@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import satisfies from '../../functions/satisfies.js'
 import rangeInclude from '../fixtures/range-include.js'

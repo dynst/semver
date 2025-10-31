@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import rsort from '../../functions/rsort.js'
 

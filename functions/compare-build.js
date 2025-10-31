@@ -1,5 +1,3 @@
-'use strict'
-
 import SemVer from '../classes/semver.js'
 const compareBuild = (a, b, loose) => {
   const versionA = new SemVer(a, loose)

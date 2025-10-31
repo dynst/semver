@@ -1,5 +1,3 @@
-'use strict'
-
 import Benchmark from 'benchmark'
 import diff from '../functions/diff.js'
 const suite = new Benchmark.Suite()

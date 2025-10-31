@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import validRange from '../../ranges/valid.js'
 import rangeParse from '../fixtures/range-parse.js'

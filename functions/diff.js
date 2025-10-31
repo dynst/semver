@@ -1,5 +1,3 @@
-'use strict'
-
 import parse from './parse.js'
 
 const diff = (version1, version2) => {

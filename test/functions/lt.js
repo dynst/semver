@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import lt from '../../functions/lt.js'
 import comparisons from '../fixtures/comparisons.js'

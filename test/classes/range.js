@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import Range from '../../classes/range.js'
 import Comparator from '../../classes/comparator.js'

@@ -1,5 +1,3 @@
-'use strict'
-
 import Benchmark from 'benchmark'
 import subset from '../ranges/subset.js'
 const suite = new Benchmark.Suite()

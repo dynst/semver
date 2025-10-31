@@ -1,5 +1,3 @@
-'use strict'
-
 import LRU from '../internal/lrucache.js'
 import parseOptions from '../internal/parse-options.js'
 import Comparator from './comparator.js'

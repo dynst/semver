@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import subset from '../../ranges/subset.js'
 import Range from '../../classes/range.js'

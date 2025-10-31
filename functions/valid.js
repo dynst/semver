@@ -1,5 +1,3 @@
-'use strict'
-
 import parse from './parse.js'
 const valid = (version, options) => {
   const v = parse(version, options)

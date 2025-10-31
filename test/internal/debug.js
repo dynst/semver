@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import { spawn } from 'child_process'
 import debug from '../../internal/debug.js'

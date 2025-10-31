@@ -1,5 +1,3 @@
-'use strict'
-
 //  [version, inc, result, options, identifier, identifierBase]
 //  inc(version, inc, options, identifier, identifierBase) -> result
 export default [

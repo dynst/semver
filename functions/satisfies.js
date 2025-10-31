@@ -1,5 +1,3 @@
-'use strict'
-
 import Range from '../classes/range.js'
 const satisfies = (version, range, options) => {
   try {

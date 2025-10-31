@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import parseOptions from '../../internal/parse-options.js'
 

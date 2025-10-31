@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import major from '../../functions/major.js'
 

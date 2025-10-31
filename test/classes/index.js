@@ -1,5 +1,3 @@
-'use strict'
-
 import * as exported from '../../classes/index.js'
 import SemVer from '../../classes/semver.js'
 import Range from '../../classes/range.js'

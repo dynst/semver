@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import toComparators from '../../ranges/to-comparators.js'
 

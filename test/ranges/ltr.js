@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import ltr from '../../ranges/ltr.js'
 import versionLtr from '../fixtures/version-lt-range.js'

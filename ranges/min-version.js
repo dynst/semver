@@ -1,5 +1,3 @@
-'use strict'
-
 import SemVer from '../classes/semver.js'
 import Range from '../classes/range.js'
 import gt from '../functions/gt.js'

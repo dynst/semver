@@ -1,5 +1,3 @@
-'use strict'
-
 import parseOptions from '../internal/parse-options.js'
 import { safeRe as re, t } from '../internal/re.js'
 import cmp from '../functions/cmp.js'

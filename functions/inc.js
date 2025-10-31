@@ -1,5 +1,3 @@
-'use strict'
-
 import SemVer from '../classes/semver.js'
 
 const inc = (version, release, options, identifier, identifierBase) => {

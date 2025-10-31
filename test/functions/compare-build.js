@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import compareBuild from '../../functions/compare-build.js'
 

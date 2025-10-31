@@ -1,5 +1,3 @@
-'use strict'
-
 // [range, version, options]
 // Version should NOT be less than range
 export default [

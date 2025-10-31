@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import { src, re, safeRe, safeSrc } from '../../internal/re.js'
 import * as semver from '../../index.js'

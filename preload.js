@@ -1,5 +1,3 @@
-'use strict'
-
 import * as index from './index.js'
 
 // XXX remove in v8 or beyond

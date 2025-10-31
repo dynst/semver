@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import Comparator from '../../classes/comparator.js'
 import comparatorIntersection from '../fixtures/comparator-intersection.js'

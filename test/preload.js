@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import preload from '../preload.js'
 import * as index from '../index.js'

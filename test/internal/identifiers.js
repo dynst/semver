@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import { compareIdentifiers, rcompareIdentifiers } from '../../internal/identifiers.js'
 

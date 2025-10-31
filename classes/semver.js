@@ -1,5 +1,3 @@
-'use strict'
-
 import debug from '../internal/debug.js'
 import { MAX_LENGTH, MAX_SAFE_INTEGER } from '../internal/constants.js'
 import { safeRe as re, t } from '../internal/re.js'

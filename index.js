@@ -1,5 +1,3 @@
-'use strict'
-
 // just pre-load all the stuff that index.js lazily exports
 import { re, src, t as tokens } from './internal/re.js'
 import {

@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import prerelease from '../../functions/prerelease.js'
 

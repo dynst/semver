@@ -1,5 +1,3 @@
-'use strict'
-
 const numeric = /^[0-9]+$/
 const compareIdentifiers = (a, b) => {
   if (typeof a === 'number' && typeof b === 'number') {

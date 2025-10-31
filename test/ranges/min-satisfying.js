@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import minSatisfying from '../../ranges/min-satisfying.js'
 

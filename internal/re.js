@@ -1,5 +1,3 @@
-'use strict'
-
 import {
   MAX_SAFE_COMPONENT_LENGTH,
   MAX_SAFE_BUILD_LENGTH,

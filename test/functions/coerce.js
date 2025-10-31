@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import coerce from '../../functions/coerce.js'
 import parse from '../../functions/parse.js'

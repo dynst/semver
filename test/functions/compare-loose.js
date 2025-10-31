@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import compareLoose from '../../functions/compare-loose.js'
 import SemVer from '../../classes/semver.js'

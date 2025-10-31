@@ -1,5 +1,3 @@
-'use strict'
-
 // [range, canonical result, options]
 // null result means it's not a valid range
 // '*' is the return value from functions.validRange(), but

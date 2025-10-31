@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 
 import pkg from '../../package.json' with { type: 'json' }

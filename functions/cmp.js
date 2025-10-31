@@ -1,5 +1,3 @@
-'use strict'
-
 import eq from './eq.js'
 import neq from './neq.js'
 import gt from './gt.js'

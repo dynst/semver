@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import sort from '../../functions/sort.js'
 

@@ -1,5 +1,3 @@
-'use strict'
-
 import parse from './parse.js'
 const prerelease = (version, options) => {
   const parsed = parse(version, options)

@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import rcompare from '../../functions/rcompare.js'
 

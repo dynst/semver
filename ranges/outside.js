@@ -1,5 +1,3 @@
-'use strict'
-
 import SemVer from '../classes/semver.js'
 import Comparator from '../classes/comparator.js'
 const { ANY } = Comparator

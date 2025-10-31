@@ -1,5 +1,3 @@
-'use strict'
-
 import Range from '../classes/range.js'
 
 // Mostly just for testing and legacy API reasons

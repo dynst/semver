@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import SemVer from '../../classes/semver.js'
 import increments from '../fixtures/increments.js'

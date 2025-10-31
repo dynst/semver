@@ -1,5 +1,3 @@
-'use strict'
-
 import SemVer from '../classes/semver.js'
 import parse from './parse.js'
 import { safeRe as re, t } from '../internal/re.js'

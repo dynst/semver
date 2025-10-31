@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import neq from '../../functions/neq.js'
 import comparisons from '../fixtures/comparisons.js'

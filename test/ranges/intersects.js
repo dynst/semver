@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import intersects from '../../ranges/intersects.js'
 import Range from '../../classes/range.js'

@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import gtr from '../../ranges/gtr.js'
 import versionGtr from '../fixtures/version-gt-range.js'

@@ -1,5 +1,3 @@
-'use strict'
-
 import Benchmark from 'benchmark'
 import SemVer from '../classes/semver.js'
 const suite = new Benchmark.Suite()

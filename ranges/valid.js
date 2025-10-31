@@ -1,5 +1,3 @@
-'use strict'
-
 import Range from '../classes/range.js'
 const validRange = (range, options) => {
   try {

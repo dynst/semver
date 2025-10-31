@@ -1,5 +1,3 @@
-'use strict'
-
 // c0, c1, expected intersection, includePrerelease
 export default [
   // One is a Version

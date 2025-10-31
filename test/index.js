@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import * as semver from '../index.js'
 import { SEMVER_SPEC_VERSION } from '../internal/constants.js'

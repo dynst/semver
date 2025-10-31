@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import inc from '../../functions/inc.js'
 import parse from '../../functions/parse.js'

@@ -1,5 +1,3 @@
-'use strict'
-
 import { test } from 'tap'
 import cmp from '../../functions/cmp.js'
 import comparisons from '../fixtures/comparisons.js'

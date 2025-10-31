@@ -1,5 +1,3 @@
-'use strict'
-
 import simplify from '../../ranges/simplify.js'
 import Range from '../../classes/range.js'
 import t from 'tap'

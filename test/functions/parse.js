@@ -1,5 +1,3 @@
-'use strict'
-
 import t from 'tap'
 import parse from '../../functions/parse.js'
 import SemVer from '../../classes/semver.js'
