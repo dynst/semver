@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const gt = require('../../functions/gt.js')
-const comparisons = require('../fixtures/comparisons.js')
-const equality = require('../fixtures/equality.js')
+import { test } from 'tap'
+import gt from '../../functions/gt.js'
+import comparisons from '../fixtures/comparisons.js'
+import equality from '../fixtures/equality.js'
 
 test('comparison tests', t => {
   t.plan(comparisons.length)

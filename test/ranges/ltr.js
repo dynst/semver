@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const ltr = require('../../ranges/ltr.js')
-const versionLtr = require('../fixtures/version-lt-range.js')
-const versionNotLtr = require('../fixtures/version-not-lt-range.js')
+import { test } from 'tap'
+import ltr from '../../ranges/ltr.js'
+import versionLtr from '../fixtures/version-lt-range.js'
+import versionNotLtr from '../fixtures/version-not-lt-range.js'
 
 test('ltr tests', (t) => {
   // [range, version, options]

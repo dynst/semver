@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const gtr = require('../../ranges/gtr.js')
-const versionGtr = require('../fixtures/version-gt-range.js')
-const versionNotGtr = require('../fixtures/version-not-gt-range.js')
+import { test } from 'tap'
+import gtr from '../../ranges/gtr.js'
+import versionGtr from '../fixtures/version-gt-range.js'
+import versionNotGtr from '../fixtures/version-not-gt-range.js'
 
 test('gtr tests', (t) => {
   // [range, version, options]

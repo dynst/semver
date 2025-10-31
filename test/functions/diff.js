@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const diff = require('../../functions/diff.js')
+import { test } from 'tap'
+import diff from '../../functions/diff.js'
 
 test('diff versions test', (t) => {
 //  [version1, version2, result]

@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const satisfies = require('../../functions/satisfies.js')
-const rangeInclude = require('../fixtures/range-include.js')
-const rangeExclude = require('../fixtures/range-exclude.js')
+import { test } from 'tap'
+import satisfies from '../../functions/satisfies.js'
+import rangeInclude from '../fixtures/range-include.js'
+import rangeExclude from '../fixtures/range-exclude.js'
 test('range tests', t => {
   t.plan(rangeInclude.length)
   rangeInclude.forEach(([range, ver, options]) =>

@@ -1,13 +1,13 @@
 'use strict'
 
-const { test } = require('tap')
-const Range = require('../../classes/range.js')
-const Comparator = require('../../classes/comparator.js')
-const rangeIntersection = require('../fixtures/range-intersection.js')
+import { test } from 'tap'
+import Range from '../../classes/range.js'
+import Comparator from '../../classes/comparator.js'
+import rangeIntersection from '../fixtures/range-intersection.js'
 
-const rangeInclude = require('../fixtures/range-include.js')
-const rangeExclude = require('../fixtures/range-exclude.js')
-const rangeParse = require('../fixtures/range-parse.js')
+import rangeInclude from '../fixtures/range-include.js'
+import rangeExclude from '../fixtures/range-exclude.js'
+import rangeParse from '../fixtures/range-parse.js'
 
 test('range tests', t => {
   t.plan(rangeInclude.length)

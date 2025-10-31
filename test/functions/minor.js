@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const minor = require('../../functions/minor.js')
+import { test } from 'tap'
+import minor from '../../functions/minor.js'
 
 test('minor tests', (t) => {
   // [range, version]

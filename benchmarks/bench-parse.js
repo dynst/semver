@@ -1,11 +1,11 @@
 'use strict'
 
-const Benchmark = require('benchmark')
-const parse = require('../functions/parse.js')
+import Benchmark from 'benchmark'
+import parse from '../functions/parse.js'
 const suite = new Benchmark.Suite()
 
-const cases = require('../test/fixtures/valid-versions.js')
-const invalidCases = require('../test/fixtures/invalid-versions.js')
+import cases from '../test/fixtures/valid-versions.js'
+import invalidCases from '../test/fixtures/invalid-versions.js'
 
 for (const test of cases) {
   suite.add(`parse(${test[0]})`, function () {

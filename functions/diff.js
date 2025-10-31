@@ -1,6 +1,6 @@
 'use strict'
 
-const parse = require('./parse.js')
+import parse from './parse.js'
 
 const diff = (version1, version2) => {
   const v1 = parse(version1, null, true)

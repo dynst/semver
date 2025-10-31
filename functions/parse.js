@@ -1,6 +1,6 @@
 'use strict'
 
-const SemVer = require('../classes/semver.js')
+import SemVer from '../classes/semver.js'
 const parse = (version, options, throwErrors = false) => {
   if (version instanceof SemVer) {
     return version

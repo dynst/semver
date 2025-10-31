@@ -1,10 +1,10 @@
 'use strict'
 
-const LRU = require('../internal/lrucache.js')
-const parseOptions = require('../internal/parse-options.js')
-const Comparator = require('./comparator.js')
-const debug = require('../internal/debug.js')
-const SemVer = require('./semver.js')
+import LRU from '../internal/lrucache.js'
+import parseOptions from '../internal/parse-options.js'
+import Comparator from './comparator.js'
+import debug from '../internal/debug.js'
+import SemVer from './semver.js'
 const {
   safeRe: re,
   t,
@@ -12,7 +12,7 @@ const {
   tildeTrimReplace,
   caretTrimReplace,
 } = require('../internal/re.js')
-const { FLAG_INCLUDE_PRERELEASE, FLAG_LOOSE } = require('../internal/constants.js')
+import { FLAG_INCLUDE_PRERELEASE, FLAG_LOOSE } from '../internal/constants.js'
 
 const SPACE_CHARACTERS = /\s+/g
 

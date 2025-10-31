@@ -1,7 +1,7 @@
 'use strict'
 
-const t = require('tap')
-const parseOptions = require('../../internal/parse-options.js')
+import t from 'tap'
+import parseOptions from '../../internal/parse-options.js'
 
 t.test('falsey values always empty options object', t => {
   t.strictSame(parseOptions(null), {})

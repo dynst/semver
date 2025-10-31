@@ -1,8 +1,8 @@
 'use strict'
 
-const { test } = require('tap')
-const { src, re, safeRe, safeSrc } = require('../../internal/re.js')
-const semver = require('../../index.js')
+import { test } from 'tap'
+import { src, re, safeRe, safeSrc } from '../../internal/re.js'
+import semver from '../../index.js'
 
 test('Semver itself has a list of src, re, and tokens', (t) => {
   t.match(Object.assign({}, semver), {

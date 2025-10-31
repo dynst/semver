@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const major = require('../../functions/major.js')
+import { test } from 'tap'
+import major from '../../functions/major.js'
 
 test('major tests', (t) => {
   // [range, version]

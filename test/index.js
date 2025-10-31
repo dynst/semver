@@ -1,8 +1,8 @@
 'use strict'
 
-const t = require('tap')
-const semver = require('../index.js')
-const { SEMVER_SPEC_VERSION } = require('../internal/constants.js')
+import t from 'tap'
+import semver from '../index.js'
+import { SEMVER_SPEC_VERSION } from '../internal/constants.js'
 
 t.match(Object.getOwnPropertyDescriptor(semver, 'SEMVER_SPEC_VERSION'), {
   get: undefined,

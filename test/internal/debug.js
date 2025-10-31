@@ -1,8 +1,8 @@
 'use strict'
 
-const t = require('tap')
-const { spawn } = require('child_process')
-const debug = require('../../internal/debug.js')
+import t from 'tap'
+import { spawn } from 'child_process'
+import debug from '../../internal/debug.js'
 
 const main = () => {
   t.plan(2)

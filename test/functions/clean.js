@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const clean = require('../../functions/clean.js')
+import { test } from 'tap'
+import clean from '../../functions/clean.js'
 
 test('clean tests', (t) => {
   // [range, version]

@@ -1,11 +1,11 @@
 'use strict'
 
-const exported = require('../../classes/index.js')
-const SemVer = require('../../classes/semver.js')
-const Range = require('../../classes/range.js')
-const Comparator = require('../../classes/comparator.js')
+import exported from '../../classes/index.js'
+import SemVer from '../../classes/semver.js'
+import Range from '../../classes/range.js'
+import Comparator from '../../classes/comparator.js'
 
-const t = require('tap')
+import t from 'tap'
 t.same(exported, {
   SemVer,
   Range,

@@ -1,8 +1,8 @@
 'use strict'
 
-const simplify = require('../../ranges/simplify.js')
-const Range = require('../../classes/range.js')
-const t = require('tap')
+import simplify from '../../ranges/simplify.js'
+import Range from '../../classes/range.js'
+import t from 'tap'
 const versions = [
   '1.0.0',
   '1.0.1',

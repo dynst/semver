@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const inc = require('../../functions/inc.js')
-const parse = require('../../functions/parse.js')
-const increments = require('../fixtures/increments.js')
+import { test } from 'tap'
+import inc from '../../functions/inc.js'
+import parse from '../../functions/parse.js'
+import increments from '../fixtures/increments.js'
 
 test('increment versions test', (t) => {
   increments.forEach(([pre, what, wanted, options, id, base]) => {

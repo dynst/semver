@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const { compareIdentifiers, rcompareIdentifiers } = require('../../internal/identifiers.js')
+import { test } from 'tap'
+import { compareIdentifiers, rcompareIdentifiers } from '../../internal/identifiers.js'
 
 test('rcompareIdentifiers and compareIdentifiers', (t) => {
   const set = [

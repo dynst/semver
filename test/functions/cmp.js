@@ -1,10 +1,10 @@
 'use strict'
 
-const { test } = require('tap')
-const cmp = require('../../functions/cmp.js')
-const comparisons = require('../fixtures/comparisons.js')
-const equality = require('../fixtures/equality.js')
-const SemVer = require('../../classes/semver.js')
+import { test } from 'tap'
+import cmp from '../../functions/cmp.js'
+import comparisons from '../fixtures/comparisons.js'
+import equality from '../fixtures/equality.js'
+import SemVer from '../../classes/semver.js'
 
 test('invalid cmp usage', (t) => {
   t.throws(() => {

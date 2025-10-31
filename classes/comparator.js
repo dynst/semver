@@ -1,11 +1,11 @@
 'use strict'
 
-const parseOptions = require('../internal/parse-options.js')
-const { safeRe: re, t } = require('../internal/re.js')
-const cmp = require('../functions/cmp.js')
-const debug = require('../internal/debug.js')
-const SemVer = require('./semver.js')
-const Range = require('./range.js')
+import parseOptions from '../internal/parse-options.js'
+import { safeRe as re, t } from '../internal/re.js'
+import cmp from '../functions/cmp.js'
+import debug from '../internal/debug.js'
+import SemVer from './semver.js'
+import Range from './range.js'
 
 const ANY = Symbol('SemVer ANY')
 // hoisted class for cyclic dependency

@@ -1,6 +1,6 @@
 'use strict'
 
-const SemVer = require('../classes/semver.js')
+import SemVer from '../classes/semver.js'
 
 const inc = (version, release, options, identifier, identifierBase) => {
   if (typeof (options) === 'string') {

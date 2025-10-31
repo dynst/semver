@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const minVersion = require('../../ranges/min-version.js')
+import { test } from 'tap'
+import minVersion from '../../ranges/min-version.js'
 
 test('minimum version in range tests', (t) => {
   // [range, minimum, loose]

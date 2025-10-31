@@ -1,5 +1,5 @@
 'use strict'
 
-const compare = require('./compare.js')
+import compare from './compare.js'
 const eq = (a, b, loose) => compare(a, b, loose) === 0
 module.exports = eq

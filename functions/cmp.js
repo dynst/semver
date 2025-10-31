@@ -1,11 +1,11 @@
 'use strict'
 
-const eq = require('./eq.js')
-const neq = require('./neq.js')
-const gt = require('./gt.js')
-const gte = require('./gte.js')
-const lt = require('./lt.js')
-const lte = require('./lte.js')
+import eq from './eq.js'
+import neq from './neq.js'
+import gt from './gt.js'
+import gte from './gte.js'
+import lt from './lt.js'
+import lte from './lte.js'
 
 const cmp = (a, op, b, loose) => {
   switch (op) {

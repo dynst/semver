@@ -1,9 +1,9 @@
 'use strict'
 
-const { test } = require('tap')
-const lte = require('../../functions/lte.js')
-const comparisons = require('../fixtures/comparisons.js')
-const equality = require('../fixtures/equality.js')
+import { test } from 'tap'
+import lte from '../../functions/lte.js'
+import comparisons from '../fixtures/comparisons.js'
+import equality from '../fixtures/equality.js'
 
 test('comparison tests', t => {
   t.plan(comparisons.length)

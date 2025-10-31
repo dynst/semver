@@ -1,12 +1,12 @@
 'use strict'
 
-const { test } = require('tap')
-const SemVer = require('../../classes/semver.js')
-const increments = require('../fixtures/increments.js')
-const comparisons = require('../fixtures/comparisons.js')
-const equality = require('../fixtures/equality.js')
-const invalidVersions = require('../fixtures/invalid-versions.js')
-const validVersions = require('../fixtures/valid-versions.js')
+import { test } from 'tap'
+import SemVer from '../../classes/semver.js'
+import increments from '../fixtures/increments.js'
+import comparisons from '../fixtures/comparisons.js'
+import equality from '../fixtures/equality.js'
+import invalidVersions from '../fixtures/invalid-versions.js'
+import validVersions from '../fixtures/valid-versions.js'
 
 test('valid versions', t => {
   t.plan(validVersions.length)

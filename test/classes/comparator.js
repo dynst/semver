@@ -1,8 +1,8 @@
 'use strict'
 
-const { test } = require('tap')
-const Comparator = require('../../classes/comparator.js')
-const comparatorIntersection = require('../fixtures/comparator-intersection.js')
+import { test } from 'tap'
+import Comparator from '../../classes/comparator.js'
+import comparatorIntersection from '../fixtures/comparator-intersection.js'
 
 test('comparator testing', t => {
   const c = new Comparator('>=1.2.3')

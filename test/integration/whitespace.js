@@ -1,13 +1,13 @@
 'use strict'
 
-const { test } = require('tap')
-const Range = require('../../classes/range.js')
-const SemVer = require('../../classes/semver.js')
-const Comparator = require('../../classes/comparator.js')
-const validRange = require('../../ranges/valid.js')
-const minVersion = require('../../ranges/min-version.js')
-const minSatisfying = require('../../ranges/min-satisfying.js')
-const maxSatisfying = require('../../ranges/max-satisfying.js')
+import { test } from 'tap'
+import Range from '../../classes/range.js'
+import SemVer from '../../classes/semver.js'
+import Comparator from '../../classes/comparator.js'
+import validRange from '../../ranges/valid.js'
+import minVersion from '../../ranges/min-version.js'
+import minSatisfying from '../../ranges/min-satisfying.js'
+import maxSatisfying from '../../ranges/max-satisfying.js'
 
 const wsMedium = ' '.repeat(125)
 const wsLarge = ' '.repeat(500000)

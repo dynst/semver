@@ -1,7 +1,7 @@
 'use strict'
 
-const Benchmark = require('benchmark')
-const parseOptions = require('../internal/parse-options.js')
+import Benchmark from 'benchmark'
+import parseOptions from '../internal/parse-options.js'
 const suite = new Benchmark.Suite()
 
 const options1 = {

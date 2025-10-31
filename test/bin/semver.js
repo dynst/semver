@@ -1,13 +1,13 @@
 'use strict'
 
-const t = require('tap')
+import t from 'tap'
 
-const pkg = require('../../package.json')
+import pkg from '../../package.json' with { type: 'json' }
 const thisVersion = pkg.version
 t.cleanSnapshot = str => str.split(thisVersion).join('@@VERSION@@')
 
-const { spawn } = require('child_process')
-const bin = require.resolve('../../bin/semver.js')
+import { spawn } from 'child_process'
+const bin = import.meta.resolve('../../bin/semver.js')
 const run = args => new Promise((resolve, reject) => {
   const c = spawn(process.execPath, [bin].concat(args))
   c.on('error', reject)

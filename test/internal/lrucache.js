@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const LRUCache = require('../../internal/lrucache.js')
+import { test } from 'tap'
+import LRUCache from '../../internal/lrucache.js'
 
 test('basic cache operation', t => {
   const c = new LRUCache()

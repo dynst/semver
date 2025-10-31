@@ -13,7 +13,7 @@ const range = []
 
 let inc = null
 
-const pkg = require('../package.json')
+import pkg from '../package.json' with { type: 'json' }
 const version = pkg.version
 
 let loose = false
@@ -28,8 +28,8 @@ let identifier
 
 let identifierBase
 
-const semver = require('../index.js')
-const parseOptions = require('../internal/parse-options.js')
+import semver from '../index.js'
+import parseOptions from '../internal/parse-options.js'
 
 let reverse = false
 

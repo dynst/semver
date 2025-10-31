@@ -1,53 +1,53 @@
 'use strict'
 
 // just pre-load all the stuff that index.js lazily exports
-const { re, src, t: tokens } = require('./internal/re.js')
-const {
+import { re, src, t as tokens } from './internal/re.js'
+import {
   RELEASE_TYPES,
   SEMVER_SPEC_VERSION,
-} = require('./internal/constants.js')
-const SemVer = require('./classes/semver.js')
-const {
+} from './internal/constants.js'
+import SemVer from './classes/semver.js'
+import {
   compareIdentifiers,
   rcompareIdentifiers,
-} = require('./internal/identifiers.js')
-const parse = require('./functions/parse.js')
-const valid = require('./functions/valid.js')
-const clean = require('./functions/clean.js')
-const inc = require('./functions/inc.js')
-const diff = require('./functions/diff.js')
-const major = require('./functions/major.js')
-const minor = require('./functions/minor.js')
-const patch = require('./functions/patch.js')
-const prerelease = require('./functions/prerelease.js')
-const compare = require('./functions/compare.js')
-const rcompare = require('./functions/rcompare.js')
-const compareLoose = require('./functions/compare-loose.js')
-const compareBuild = require('./functions/compare-build.js')
-const sort = require('./functions/sort.js')
-const rsort = require('./functions/rsort.js')
-const gt = require('./functions/gt.js')
-const lt = require('./functions/lt.js')
-const eq = require('./functions/eq.js')
-const neq = require('./functions/neq.js')
-const gte = require('./functions/gte.js')
-const lte = require('./functions/lte.js')
-const cmp = require('./functions/cmp.js')
-const coerce = require('./functions/coerce.js')
-const Comparator = require('./classes/comparator.js')
-const Range = require('./classes/range.js')
-const satisfies = require('./functions/satisfies.js')
-const toComparators = require('./ranges/to-comparators.js')
-const maxSatisfying = require('./ranges/max-satisfying.js')
-const minSatisfying = require('./ranges/min-satisfying.js')
-const minVersion = require('./ranges/min-version.js')
-const validRange = require('./ranges/valid.js')
-const outside = require('./ranges/outside.js')
-const gtr = require('./ranges/gtr.js')
-const ltr = require('./ranges/ltr.js')
-const intersects = require('./ranges/intersects.js')
-const simplifyRange = require('./ranges/simplify.js')
-const subset = require('./ranges/subset.js')
+} from './internal/identifiers.js'
+import parse from './functions/parse.js'
+import valid from './functions/valid.js'
+import clean from './functions/clean.js'
+import inc from './functions/inc.js'
+import diff from './functions/diff.js'
+import major from './functions/major.js'
+import minor from './functions/minor.js'
+import patch from './functions/patch.js'
+import prerelease from './functions/prerelease.js'
+import compare from './functions/compare.js'
+import rcompare from './functions/rcompare.js'
+import compareLoose from './functions/compare-loose.js'
+import compareBuild from './functions/compare-build.js'
+import sort from './functions/sort.js'
+import rsort from './functions/rsort.js'
+import gt from './functions/gt.js'
+import lt from './functions/lt.js'
+import eq from './functions/eq.js'
+import neq from './functions/neq.js'
+import gte from './functions/gte.js'
+import lte from './functions/lte.js'
+import cmp from './functions/cmp.js'
+import coerce from './functions/coerce.js'
+import Comparator from './classes/comparator.js'
+import Range from './classes/range.js'
+import satisfies from './functions/satisfies.js'
+import toComparators from './ranges/to-comparators.js'
+import maxSatisfying from './ranges/max-satisfying.js'
+import minSatisfying from './ranges/min-satisfying.js'
+import minVersion from './ranges/min-version.js'
+import validRange from './ranges/valid.js'
+import outside from './ranges/outside.js'
+import gtr from './ranges/gtr.js'
+import ltr from './ranges/ltr.js'
+import intersects from './ranges/intersects.js'
+import simplifyRange from './ranges/simplify.js'
+import subset from './ranges/subset.js'
 module.exports = {
   parse,
   valid,

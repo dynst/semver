@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const prerelease = require('../../functions/prerelease.js')
+import { test } from 'tap'
+import prerelease from '../../functions/prerelease.js'
 
 test('prerelease', (t) => {
   // [prereleaseParts, version, loose]

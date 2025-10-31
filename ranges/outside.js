@@ -1,14 +1,14 @@
 'use strict'
 
-const SemVer = require('../classes/semver.js')
-const Comparator = require('../classes/comparator.js')
+import SemVer from '../classes/semver.js'
+import Comparator from '../classes/comparator.js'
 const { ANY } = Comparator
-const Range = require('../classes/range.js')
-const satisfies = require('../functions/satisfies.js')
-const gt = require('../functions/gt.js')
-const lt = require('../functions/lt.js')
-const lte = require('../functions/lte.js')
-const gte = require('../functions/gte.js')
+import Range from '../classes/range.js'
+import satisfies from '../functions/satisfies.js'
+import gt from '../functions/gt.js'
+import lt from '../functions/lt.js'
+import lte from '../functions/lte.js'
+import gte from '../functions/gte.js'
 
 const outside = (version, range, hilo, options) => {
   version = new SemVer(version, options)

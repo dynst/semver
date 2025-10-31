@@ -1,8 +1,8 @@
 'use strict'
 
-const t = require('tap')
-const subset = require('../../ranges/subset.js')
-const Range = require('../../classes/range.js')
+import t from 'tap'
+import subset from '../../ranges/subset.js'
+import Range from '../../classes/range.js'
 
 // sub, dom, expect, [options]
 const cases = [

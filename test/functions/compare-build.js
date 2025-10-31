@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const compareBuild = require('../../functions/compare-build.js')
+import { test } from 'tap'
+import compareBuild from '../../functions/compare-build.js'
 
 test('compareBuild', (t) => {
   const noBuild = '1.0.0'
